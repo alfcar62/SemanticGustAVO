@@ -29,6 +29,8 @@ o semplicemente commentando tutto quello che ci sta dalla riga 229 alla 242 e de
 Per avviare la modalità standard digitare:
     python app.py
 
+NOTA:Per avviare l'applicazione sarà necessario installare delle dipendenze, in particolare FAISS che è stato aggiunto in questa versione, vedi requirements.txt         per informazioni
+
 Dettagli modifiche
 
 Riga 9 (Nuova aggiunta): Aggiunta l'import necessario per la libreria FAISS
