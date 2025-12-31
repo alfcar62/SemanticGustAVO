@@ -122,6 +122,10 @@ def generate_response(intent_tag):
         return random.choice(responses[intent_tag])
     return "Non ho capito bene, puoi riformulare?"
 
+# =========================
+# Logica chatbot
+# =========================
+
 def chatbot_logic(user_message, session_id="default"):
     if not user_message:
         return "Per favore scrivi qualcosa.", None, 0.0
