@@ -19,7 +19,7 @@ AGGIUNTA:
 Ho apportato delle migliorie al riguardo della strutturazione della logica embedding, con la tecnologia FAISS (Facebook AI Similarity Search) una libreria open source per la ricerca di similarità e il clustering di vettori
 è stato aggiunta la possibilità di caricare un file intent.faiss con i dati emebdding elaborati senza doverli ricalcolare ad ogni avvio, se il file non esiste o non trovato il programma ne creerà uno nuovo e allo stesso tempo
 verrà creato un intents_meta.json dove verranno caricati i metadati (cioè i tag e patterns) tutto estratto dal file intents.json.
-Inoltre è stato estratto la logica di risposta dal @app(/chat) a una funzione indipendente per l'implementazione della modalità console dove la conversazione si terrà direttamente sulla console e quindi non arriva al frontend,
+Inoltre è stato estratto la logica di risposta dal @app.route(/chat) a una funzione indipendente per l'implementazione della modalità console dove la conversazione si terrà direttamente sulla console e quindi non arriva al frontend,
 questa modalità l'ho aggiunta per facilitare i test locali senza dover caricare il index.html e altre cose.
 
 Per avviare la modalità console digitare:
