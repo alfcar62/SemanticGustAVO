@@ -996,5 +996,16 @@
         "Al piano terra c'è un bagno subito vicino all'ingresso, ma ogni piano è dotato di più bagni"
       ]
     }
+    ,
+    {
+      "tag": "capodanno_2026",
+      "patterns": [
+        "Auguri capodanno e buon nuovo anno!"
+      ],
+      "responses": [
+        "GustAvo ti porge gli auguri di buon anno nuovo!\n\n Io credo all’uccellino batticoda:\n che ci porti il buon anno.\n Scorre liscio su l’umido tappeto\n di bruni muschi, alla soglia del mare,\n sosta un tratto a beccare, e poi di nuovo\n scivola via come una spola, vola,\n sparisce in cielo. Neppur ci ha guardati.\n Ma è bello, affusolato, grigio e bianco,\n porta, certo, il buon anno.\n                            --------Diego Valeri\n--\nBuon anno, buon 2026."
+      ],
+      "author": "Bho :]\n Fonti:\n “Augurio di Capodanno” di Diego Valeri\n"
+    }
   ]
 }
